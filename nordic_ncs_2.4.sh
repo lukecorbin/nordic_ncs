@@ -33,7 +33,7 @@ west update
 west zephyr-export
 
 
-sudo apt install python3-venv
+sudo apt install python3-venv -y
 python3 -m venv ~/ncs/.venv
 source ~/ncs/.venv/bin/activate
 
